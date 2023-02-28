@@ -1,0 +1,25 @@
+create database person
+
+create table person
+(
+   first_name varchar(50),
+   last_name varchar(100),
+   address varchar(100),
+   city varchar(100),
+   age int (60)
+  )
+ insert into person(first_name,last_name, address ,city,age)value('mickey','mouse','123 fantasy way','anaheim',73);
+ insert into person(first_name,last_name, address ,city,age)value
+('bat','man','321 cavern ave','gotham',54);
+ insert into person(first_name,last_name, address ,city,age)value
+('wonder','woman','987 truth way','paradise',39);
+ insert into person(first_name,last_name, address ,city,age)value
+('donald','duck','555 quack street',mallard,65);
+ insert into person(first_name,last_name, address ,city,age)value
+( 'bugs','bunny','567 carrot street','rascal',58);
+insert into person(first_name,last_name, address ,city,age)value
+('wiley','coyote','999 acme way','canyon',61);
+ insert into person(first_name,last_name, address ,city,age)value
+('cat','woman' ,'234 purrfect street','hairball',32);
+insert into person(first_name,last_name, address ,city,age)value
+('tweety','bird','543','itotltaw',28)

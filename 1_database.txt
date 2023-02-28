@@ -1,0 +1,27 @@
+create database school
+
+    create table student
+    (
+        roll_no int(50) auto_increment primary key,
+       name varchar (60),
+       branch varchar(70)
+     )
+insert into student (roll_no,name,branch) values ( 1,'jay','computer science');
+insert into student (roll_no,name,branch) values (2,'shuhani','electronic and communication');
+insert into student (roll_no,name,branch) values (3,'kriti','electronic and communication')
+ 
+create table exam 
+(       
+        Roll_no int (100),
+        s_code varchar(20),
+        marks int(100),
+        p_code varchar(50),
+
+    foreign key (Roll_no ) refrence student(roll_no)
+   )
+ insert into exam(Roll_no,s_code,marks,p_code) values(1,'CS11',50,'CS');
+ insert into exam(Roll_no,s_code,marks,p_code) values(1,'CS12',60,'CS');
+ insert into exam(Roll_no,s_code,marks,p_code) values(2,'EC101',66,'EC');
+ insert into exam(Roll_no,s_code,marks,p_code) values(2,'EC102',70,'EC');
+ insert into exam(Roll_no,s_code,marks,p_code) values(3,'EC101',45,'EC');
+ insert into exam(Roll_no,s_code,marks,p_code) values(3,'EC102',50,'EC')
